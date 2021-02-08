@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e5fb25ce-5ae7-4969-a7c9-bb192001a3e1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Cenário",
+    "path": "folders/Sprites/Cenário.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bloco",

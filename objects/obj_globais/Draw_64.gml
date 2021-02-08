@@ -1,4 +1,10 @@
 /// @description GUI/HUD
+//Checando se o player vive
+var vivo = instance_exists(obj_player);
+if(vivo = false)
+	{
+		exit;
+	}
 //Textos
 draw_text(10,10,"VIDAS");
 draw_text(10,100,"ESCUDOS");

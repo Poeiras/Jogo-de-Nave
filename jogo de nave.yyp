@@ -2,12 +2,14 @@
   "resources": [
     {"id":{"name":"obj_shield","path":"objects/obj_shield/obj_shield.yy",},"order":1,},
     {"id":{"name":"obj_tiro02","path":"objects/obj_tiro02/obj_tiro02.yy",},"order":3,},
-    {"id":{"name":"spr_bloco","path":"sprites/spr_bloco/spr_bloco.yy",},"order":1,},
+    {"id":{"name":"spr_bloco","path":"sprites/spr_bloco/spr_bloco.yy",},"order":0,},
     {"id":{"name":"acoes","path":"scripts/acoes/acoes.yy",},"order":1,},
     {"id":{"name":"obj_explofx01","path":"objects/obj_explofx01/obj_explofx01.yy",},"order":0,},
     {"id":{"name":"movimento","path":"scripts/movimento/movimento.yy",},"order":0,},
     {"id":{"name":"obj_tiro01","path":"objects/obj_tiro01/obj_tiro01.yy",},"order":2,},
+    {"id":{"name":"obj_explofx02","path":"objects/obj_explofx02/obj_explofx02.yy",},"order":1,},
     {"id":{"name":"obj_globais","path":"objects/obj_globais/obj_globais.yy",},"order":0,},
+    {"id":{"name":"spr_explo02","path":"sprites/spr_explo02/spr_explo02.yy",},"order":1,},
     {"id":{"name":"obj_bloco","path":"objects/obj_bloco/obj_bloco.yy",},"order":1,},
     {"id":{"name":"spr_shield","path":"sprites/spr_shield/spr_shield.yy",},"order":1,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
@@ -54,6 +56,7 @@
     {"folderPath":"folders/Sprites/FX.yy","order":3,"resourceVersion":"1.0","name":"FX","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Efeitos.yy","order":3,"resourceVersion":"1.0","name":"Efeitos","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Controladoras.yy","order":4,"resourceVersion":"1.0","name":"Controladoras","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Cenário.yy","order":4,"resourceVersion":"1.0","name":"Cenário","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
