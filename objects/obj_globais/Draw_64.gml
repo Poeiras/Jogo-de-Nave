@@ -6,9 +6,13 @@ if(vivo = false)
 		exit;
 	}
 //Textos
-draw_text(10,10,"VIDAS");
-draw_text(10,100,"ESCUDOS");
-draw_text(10,200,"ARMA EQUIPADA");
+draw_set_font(fnt_jogo);
+draw_set_halign(fa_left);
+draw_set_valign(fa_left);
+
+draw_text(15,10,"VIDAS");
+draw_text(15,100,"ESCUDOS");
+draw_text(15,200,"ARMA EQUIPADA");
 
 #region Vida e escudo
 //Vidas
