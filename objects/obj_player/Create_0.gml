@@ -4,6 +4,7 @@ deslize = 1;
 protegido = false;
 contador = 0;
 imune = true;
+giro = 2.5;
 
 //Armas
 eq = 0;

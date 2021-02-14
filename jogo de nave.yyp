@@ -26,6 +26,7 @@
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"spr_tiro01","path":"sprites/spr_tiro01/spr_tiro01.yy",},"order":2,},
     {"id":{"name":"sor_inimigo01","path":"sprites/sor_inimigo01/sor_inimigo01.yy",},"order":0,},
+    {"id":{"name":"obj_fasete","path":"objects/obj_fasete/obj_fasete.yy",},"order":2,},
     {"id":{"name":"spr_bg00","path":"sprites/spr_bg00/spr_bg00.yy",},"order":0,},
     {"id":{"name":"spr_explo01","path":"sprites/spr_explo01/spr_explo01.yy",},"order":0,},
     {"id":{"name":"spr_tiro02","path":"sprites/spr_tiro02/spr_tiro02.yy",},"order":4,},

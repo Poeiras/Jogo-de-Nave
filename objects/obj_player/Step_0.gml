@@ -1,6 +1,7 @@
 /// @description configuração do player
-movimento(velocidade,deslize);
+movimento(velocidade,deslize,giro);
 acoes();
+
 if(global.vida_atual <= 0)
 	{
 		instance_destroy();
@@ -14,6 +15,5 @@ if(imune = true)
 				contador = 0;
 				image_index = 0;
 				image_alpha = 1;
-				show_debug_message("fim da imunidade!");
 			}
 	}

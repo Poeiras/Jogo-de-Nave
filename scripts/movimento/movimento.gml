@@ -1,7 +1,8 @@
-function movimento(velo_char,des_char)
+function movimento(velo_char,des_char,giro_char)
 {
 ///@arg velocidade
 ///@arg deslize
+///@arg giro
 
 //Teclas e gamepad
 var cima,baixo,esq,dir;
@@ -25,6 +26,22 @@ h1 = (dir - esq) * velo_char;
 v1 = (baixo - cima) * velo_char;
 horizontal	= lerp(0,h1,des_char);
 vertical	= lerp(0,v1,des_char);
+
+////Configuração de turning
+var stick_h,vira_d,vira_e;
+stick_h = gamepad_axis_value(0,gp_axisrh);
+vira_d = keyboard_check(ord("E"));
+vira_e = keyboard_check(ord("Q"));
+
+if(stick_h < 0 || vira_e)
+	{
+		image_angle += giro_char;
+	}
+if(stick_h > 0 || vira_d)
+	{
+		image_angle -= giro_char;
+	}
+
 
 //Colisão
 //Horizontal
