@@ -32,20 +32,28 @@ var stick_h,vira_d,vira_e;
 stick_h = gamepad_axis_value(0,gp_axisrh);
 vira_d = keyboard_check(ord("E"));
 vira_e = keyboard_check(ord("Q"));
-
+var x1 = x;
+var y1 = y;
 if(stick_h < 0 || vira_e)
 	{
-		image_angle += giro_char;
+		if(!place_meeting(x1,y1,obj_bloco))
+		{
+			image_angle += giro_char;
+		}
 	}
 if(stick_h > 0 || vira_d)
 	{
-		image_angle -= giro_char;
+		if(!place_meeting(x1,y1,obj_bloco))
+		{
+			image_angle -= giro_char;
+		}
 	}
-
 
 //Colisão
 //Horizontal
-if(place_meeting(x+horizontal,y,obj_bloco))
+var h3 = x + horizontal;
+var v3 = y + vertical;
+if(place_meeting(h3,y,obj_bloco))
 	{
 		while(!place_meeting(x+sign(horizontal),y,obj_bloco))
 			{
@@ -54,7 +62,7 @@ if(place_meeting(x+horizontal,y,obj_bloco))
 		horizontal = 0;
 	}
 //Vertical
-if(place_meeting(x,y+vertical,obj_bloco))
+if(place_meeting(x,v3,obj_bloco))
 	{
 		while(!place_meeting(x,y+sign(vertical),obj_bloco))
 			{

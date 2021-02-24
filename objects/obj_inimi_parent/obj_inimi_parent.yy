@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Controladoras",
-    "path": "folders/Objects/Controladoras.yy",
+    "name": "Inimigos",
+    "path": "folders/Objects/Inimigos.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_inimi_parent",

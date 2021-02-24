@@ -1,0 +1,5 @@
+--Narrativa do personagem--
+Yacra será a personagem principal.
+Ela é uma piloto de nave espacial condecorada na Terra e respeita de forma interplanetária. 
+Ela é devota a servir a federação e acredita plenamente na sua missão.
+Durante o jogo ela receberá as missões para resolver problemas da colônias espalhadas pela via láctea. 

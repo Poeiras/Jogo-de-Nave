@@ -1,0 +1,19 @@
+Ideias de features:
+
+--Power ups---
+Replenisher de escudo
+Replenisher de vida
+Pontos extras
+
+--Puzzles--
+Porta verde/vermelha
+Encontrar a chave na fase
+
+--Funcionalidade--
+Loja de pontos
+Melhorias e itens
+
+--Ideas de fases--
+Planeta genérico
+Busca no espaço
+Estação espacial

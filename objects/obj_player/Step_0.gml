@@ -4,6 +4,8 @@ acoes();
 
 if(global.vida_atual <= 0)
 	{
+		global.morto = true;
+		global.vivo = false;
 		instance_destroy();
 	}
 if(imune = true)
@@ -17,3 +19,4 @@ if(imune = true)
 				image_alpha = 1;
 			}
 	}
+

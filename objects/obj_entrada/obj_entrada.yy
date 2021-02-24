@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bloco",
-    "path": "sprites/spr_bloco/spr_bloco.yy",
+    "name": "spr_bloco2",
+    "path": "sprites/spr_bloco2/spr_bloco2.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Obstáculos",
-    "path": "folders/Objects/Obstáculos.yy",
+    "name": "Controladoras",
+    "path": "folders/Objects/Controladoras.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_bloco",
+  "name": "obj_entrada",
   "tags": [],
   "resourceType": "GMObject",
 }

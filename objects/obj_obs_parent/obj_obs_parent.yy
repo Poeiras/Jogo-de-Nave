@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_bloco",
-    "path": "sprites/spr_bloco/spr_bloco.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -28,7 +25,7 @@
     "path": "folders/Objects/Obstáculos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_bloco",
+  "name": "obj_obs_parent",
   "tags": [],
   "resourceType": "GMObject",
 }
