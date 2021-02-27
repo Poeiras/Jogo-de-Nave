@@ -5,8 +5,6 @@ switch(fase)
 
 		m1 = 100;
 		draw_set_font(fnt_abertura);
-		draw_text(metx,mety,"SEJA BEM VINDO");
-		draw_text(metx,mety+m1,"O ESPAÇO PRECISA DE VOCÊ!");
 		if(room = rm_abertura01)
 			{
 				fase = "abertura01";

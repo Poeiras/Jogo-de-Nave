@@ -1,7 +1,7 @@
 /// @description configuração do player
-movimento(velocidade,deslize,giro);
-acoes();
-
+player_movimento(velocidade,deslize,giro);
+player_acoes();
+player_debug(false);
 if(global.vida_atual <= 0)
 	{
 		global.morto = true;
@@ -19,4 +19,3 @@ if(imune = true)
 				image_alpha = 1;
 			}
 	}
-

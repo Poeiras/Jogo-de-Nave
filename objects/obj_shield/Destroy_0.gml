@@ -1,3 +1,6 @@
 /// @description
 contador = 0;
-obj_player.protegido = false;
+if(instance_exists(obj_player))
+	{
+		obj_player.protegido = false;
+	}

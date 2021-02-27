@@ -1,2 +1,2 @@
 /// @description tiro
-instance_destroy();
+vida --;

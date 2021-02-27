@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sor_inimigo01",
-    "path": "sprites/sor_inimigo01/sor_inimigo01.yy",
+    "name": "spr_inimigo00",
+    "path": "sprites/spr_inimigo00/spr_inimigo00.yy",
   },
   "solid": false,
   "visible": true,

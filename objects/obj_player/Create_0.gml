@@ -13,4 +13,6 @@ equipado[1] = obj_tiro02;
 
 //Config de desenho
 image_speed = 0;
-image_index = 0;
+estado = "parado";
+mover = false;
+girando = false;

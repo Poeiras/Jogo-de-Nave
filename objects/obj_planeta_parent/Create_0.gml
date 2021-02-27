@@ -1,0 +1,10 @@
+/// @description variáveis
+estado = "normal";
+contador = 0;
+vida_max = 20;
+vida_atual = 20;
+redutor = 0.025;
+aumentar = false;
+diminuir = false;
+imunidade = false;
+global.planetavivo = true;
