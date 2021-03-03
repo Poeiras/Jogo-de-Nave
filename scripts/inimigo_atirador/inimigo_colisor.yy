@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Inimigos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "inimigo_state",
+  "name": "inimigo_colisor",
   "tags": [],
   "resourceType": "GMScript",
 }

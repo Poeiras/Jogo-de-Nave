@@ -1,4 +1,4 @@
-function player_movimento(velo_char,des_char,giro_char)
+function player_movimento(velo_char,des_char,giro_teclado,giro_gamepad)
 {
 ///@arg velocidade
 ///@arg deslize
@@ -35,20 +35,36 @@ vira_e = keyboard_check(ord("Q"));
 var x1 = x;
 var y1 = y;
 //Giro para esquerda
-if(stick_h < 0 || vira_e)
+if(stick_h < 0)
 	{
 		if(!place_meeting(x1,y1,obj_bloco))
 		{
-			image_angle += giro_char;
+			image_angle += giro_gamepad;
 			girando = true;
 		}
 	}
+if(vira_e)
+	{
+		if(!place_meeting(x1,y1,obj_bloco))
+			{
+				image_angle += giro_teclado;
+				girando = true;
+			}
+	}
 //Giro para direita
-if(stick_h > 0 || vira_d)
+if(stick_h > 0)
 	{
 		if(!place_meeting(x1,y1,obj_bloco))
 		{
-			image_angle -= giro_char;
+			image_angle -= giro_gamepad;
+			girando = true;
+		}
+	}
+if(vira_d)
+	{
+		if(!place_meeting(x1,y1,obj_bloco))
+		{
+			image_angle -= giro_teclado;
 			girando = true;
 		}
 	}

@@ -1,7 +1,6 @@
 /// @description configuração do player
-player_movimento(velocidade,deslize,giro);
+player_movimento(velocidade,deslize,giro_tec,giro_pad);
 player_acoes();
-player_debug(false);
 if(global.vida_atual <= 0)
 	{
 		global.morto = true;

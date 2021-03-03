@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_inimigo00",
-    "path": "sprites/spr_inimigo00/spr_inimigo00.yy",
+    "name": "spr_bloco2",
+    "path": "sprites/spr_bloco2/spr_bloco2.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_inimi_parent",
-    "path": "objects/obj_inimi_parent/obj_inimi_parent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_inimi_01","path":"objects/obj_inimi_01/obj_inimi_01.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Inimigos",
-    "path": "folders/Objects/Inimigos.yy",
+    "name": "Controladoras",
+    "path": "folders/Objects/Controladoras.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_inimi_01",
+  "name": "obj_entrada",
   "tags": [],
   "resourceType": "GMObject",
 }

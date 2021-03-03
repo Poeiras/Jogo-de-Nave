@@ -14,10 +14,12 @@ switch estado
 		case "atingido":
 		image_blend = vermelho;
 		contador ++;
+		imunidade = true;
 		if(contador = global.segundo * 3)
 			{
 				estado = "parado";
 				contador = 0;
+				imunidade = false;
 			}
 		break;
 		
@@ -48,4 +50,8 @@ switch estado
 if(vida_atual >= 20)
 	{
 		vida_atual = vida_max;
+	}
+if(vida_atual <= 0)
+	{
+		instance_destroy();
 	}

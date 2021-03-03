@@ -3,8 +3,9 @@ velocidade = 5;
 deslize = 1;
 protegido = false;
 contador = 0;
-imune = true;
-giro = 2.5;
+imune = false;
+giro_tec = 4;
+giro_pad  = 2.5;
 
 //Armas
 eq = 0;
