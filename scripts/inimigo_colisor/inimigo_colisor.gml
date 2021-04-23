@@ -33,7 +33,7 @@ function inimigo_colisor(contador,direcao)
 			break;
 		
 			case"movendo":
-				direction = direcao;
+				direction = direcao + offseter;
 				speed = spd;
 				if(contador = global.segundo * 2)
 					{

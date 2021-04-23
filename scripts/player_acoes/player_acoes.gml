@@ -2,8 +2,8 @@ function player_acoes()
 {
 var arma,tiro,escudo,prox_arma,ante_arma;
 arma = equipado[eq];
-tiro = keyboard_check_released(ord("P")) || gamepad_button_check_released(0,gp_shoulderrb);
-escudo = keyboard_check_released(ord("O")) || gamepad_button_check_released(0,gp_face2);
+tiro	= keyboard_check_released(ord("P")) || gamepad_button_check_released(0,gp_shoulderrb);
+escudo	= keyboard_check_released(ord("O")) || gamepad_button_check_released(0,gp_face2);
 prox_arma = keyboard_check_released(ord("3")) || gamepad_button_check_released(0,gp_shoulderr);
 ante_arma = keyboard_check_released(ord("1")) || gamepad_button_check_released(0,gp_shoulderl);
 

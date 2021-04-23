@@ -26,6 +26,7 @@
     {"id":{"name":"inimigo_colisor","path":"scripts/inimigo_colisor/inimigo_colisor.yy",},"order":0,},
     {"id":{"name":"obj_explofx02","path":"objects/obj_explofx02/obj_explofx02.yy",},"order":1,},
     {"id":{"name":"Yacra","path":"notes/Yacra/Yacra.yy",},"order":3,},
+    {"id":{"name":"gf_debuger","path":"scripts/gf_debuger/gf_debuger.yy",},"order":0,},
     {"id":{"name":"obj_entrada","path":"objects/obj_entrada/obj_entrada.yy",},"order":6,},
     {"id":{"name":"spr_tiro03","path":"sprites/spr_tiro03/spr_tiro03.yy",},"order":2,},
     {"id":{"name":"fnt_abertura","path":"fonts/fnt_abertura/fnt_abertura.yy",},"order":0,},
@@ -53,6 +54,7 @@
     {"id":{"name":"spr_explo01","path":"sprites/spr_explo01/spr_explo01.yy",},"order":0,},
     {"id":{"name":"player_debug","path":"scripts/player_debug/player_debug.yy",},"order":1,},
     {"id":{"name":"inimigo_atirador","path":"scripts/inimigo_atirador/inimigo_atirador.yy",},"order":1,},
+    {"id":{"name":"player_pisca","path":"scripts/player_pisca/player_pisca.yy",},"order":4,},
     {"id":{"name":"spr_tiro02","path":"sprites/spr_tiro02/spr_tiro02.yy",},"order":4,},
     {"id":{"name":"obj_pedaco","path":"objects/obj_pedaco/obj_pedaco.yy",},"order":1,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":4,},
@@ -119,6 +121,7 @@
     {"folderPath":"folders/Objects/Planetas.yy","order":8,"resourceVersion":"1.0","name":"Planetas","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Inimigos.yy","order":5,"resourceVersion":"1.0","name":"Inimigos","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Parents.yy","order":9,"resourceVersion":"1.0","name":"Parents","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/Game Flow.yy","order":6,"resourceVersion":"1.0","name":"Game Flow","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

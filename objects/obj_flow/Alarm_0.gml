@@ -1,26 +1,22 @@
 /// @description inimigos básicos
-var criador = irandom_range(1,2) * global.nivel;
+var criador = 1;
+var i = irandom_range(0,3);
 repeat(criador)
 	{
 		randomize();
-		var chance,pedra,pox,poy;
+		var pedra,pox,poy,chance;
 		chance = irandom(100);
-		pedra = choose(e1,e2,e3,e4);
+		pedra = po_ini[i];
 		pox = pedra.x;
 		poy = pedra.y
 		if(chance >= 65)
-			{
-				var ini00 = instance_create_layer(pox,poy,"Inimigos",obj_inimi_00);
-				//show_debug_message(string(chahor));
-				show_debug_message("Atirador pedra: " + string(pedra));
-			}
-		else
-			{
-				var ini01 = instance_create_layer(pox,poy,"Inimigos",obj_inimi_01);
-				//show_debug_message("colisor criado");
-				show_debug_message("Colisor pedra: " + string(pedra));
-				//show_debug_message(string(chaver));
-			}
+				{
+					ini00 = instance_create_layer(pox,poy,"Inimigos",obj_inimi_00);
+				}
+			else
+				{
+					ini01 = instance_create_layer(pox,poy,"Inimigos",obj_inimi_01);
+				}
 	}
 
 if(global.planetavivo = true)
@@ -31,4 +27,4 @@ else
 	{
 		alarm[0] = 0;
 	}
-show_debug_message("Inimigos criados normal");
+gf_debuger(false);

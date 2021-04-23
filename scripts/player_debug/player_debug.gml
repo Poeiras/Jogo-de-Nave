@@ -38,13 +38,15 @@ function player_debug(debugado)
 		show_debug_message(string(s4));
 		
 		//Falta terminar esse debug
+		//Feito!!!
 		}
 		
-		///Segundo debug: estado do player e sprites
+		///Segundo debug: estado do player, sprites, imagem
 	if(debugado = 2)
 		{
-		show_debug_message(string(estado));
-		//Feito!
+		//show_debug_message(string(estado));
+		show_debug_message("alpha: " + string(image_alpha));			
+		show_debug_message("alfa mstate: " + alfa_mstate);
 		}
 	else
 		{

@@ -42,7 +42,7 @@ function inimigo_atirador(contador,direcao)
 				break;
 				
 				case "avanço":
-					direction = direcao;
+					direction = direcao + offseter;
 					image_angle = direction;
 					speed = spd2;
 					if(dis <= 300)
@@ -66,7 +66,8 @@ function inimigo_atirador(contador,direcao)
 					if(contador = global.segundo)
 						{
 							t1 = instance_create_layer(x,y,"Tiros",obj_inimi_tiro00);
-							t1.direction = t2;
+							t1.image_angle	= t2;
+							t1.direction	= t2;
 							contador = 0;
 							c1 = 0;
 						}
