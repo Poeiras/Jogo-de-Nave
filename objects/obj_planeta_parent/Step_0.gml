@@ -5,16 +5,39 @@ branco = c_white;
 vermelho = c_red;
 
 ///State machine
+#region State Machine
 switch estado
 	{
 		case "parado":
 		image_blend = branco;
+		image_alpha = 1;
+		diminuir = false;
+		aumentar = false;
 		break;
 		
 		case "atingido":
 		image_blend = vermelho;
 		contador ++;
 		imunidade = true;
+		diminuir = true;
+		if(diminuir)
+			{
+				image_alpha -= redutor;
+				if(image_alpha <= 0.75)
+					{
+						diminuir = false;
+						aumentar = true;
+					}
+			}
+		if(aumentar)
+			{
+				image_alpha += redutor;
+				if(image_alpha >=1)
+					{
+						aumentar = false;
+						diminuir = true;
+					}
+			}
 		if(contador = global.segundo * 3)
 			{
 				estado = "parado";
@@ -24,7 +47,6 @@ switch estado
 		break;
 		
 		case "destruindo":
-		image_blend = vermelho;
 		diminuir = true;
 		if(diminuir)
 			{
@@ -46,7 +68,7 @@ switch estado
 			}
 		break;
 	}
-
+#endregion
 if(vida_atual >= 20)
 	{
 		vida_atual = vida_max;

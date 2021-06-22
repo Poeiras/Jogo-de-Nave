@@ -1,0 +1,6 @@
+1)
+Game Flow:
+Bug do criador de inimigos cria inimigos no mesmo poX e poY.
+Não consegui alterar a posição inicial caso ela esteja ocupada.
+
+2)

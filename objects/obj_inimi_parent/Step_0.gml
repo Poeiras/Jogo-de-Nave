@@ -2,7 +2,7 @@
 //Solta o contador do script de movimento adequado
 c1++;
 //Morte
-if(vida <= 0 )
+if(vida <= 0)
 	{
 		instance_destroy();
 	}

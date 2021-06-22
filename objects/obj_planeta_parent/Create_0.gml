@@ -7,4 +7,6 @@ redutor = 0.025;
 aumentar = false;
 diminuir = false;
 imunidade = false;
+cor_mstate = "normal"
 global.planetavivo = true;
+global.colisoes = 0;

@@ -3,5 +3,5 @@ player_imagens();
 draw_self();
 if(imune)
 	{
-		player_pisca(true,"diminuir");
+		player_pisca(true);
 	}

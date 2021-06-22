@@ -1,11 +1,13 @@
 /// @description variáveis
-velocidade = 5;
-deslize = 1;
-protegido = false;
-contador = 0;
-imune = false;
-giro_tec = 4;
-giro_pad  = 2.5;
+velocidade	= 5;
+deslize		= 1;
+protegido	= false;
+contador	= 0;
+imune		= false;
+giro_tec	= 4;
+giro_pad	= 2.5;
+global.jogadormorto = false;
+global.jogadorvivo	= true;
 
 //Armas
 eq = 0;

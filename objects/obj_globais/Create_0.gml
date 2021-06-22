@@ -19,4 +19,12 @@ global.planetavivo	= false;
 global.planetamorto = false;
 
 //Jogo
-global.nivel = 1;
+global.jogadorvivo	= false;
+global.jogadormorto	= true;
+global.pontosatual	= 0;
+global.maxpontos	= 0;
+global.nivel		= 1;
+global.colisoes	= 0;
+global.meta_de_ponto = 5;
+global.vitoria = false;
+global.derrota = false;

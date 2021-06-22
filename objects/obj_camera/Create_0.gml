@@ -4,20 +4,20 @@
 var player = obj_player;
 cam = camera_create();
 cam = view_camera[0];
-bordas = 64;
+bordas = 0;
 velo = 20;
 portw = 800;
 porth = 600;
 resolux = 1366;
 resoluy = 768;
 p1 = resolux/2;
-p2 = resoluy/2
+p2 = resoluy/2;
 
 //Definindo o player como principal alvo
 camera_set_view_target(cam,player);
-camera_set_view_pos(cam,player.x - p1,player.y - p2);
 camera_set_view_border(cam,bordas,bordas);
 camera_set_view_speed(cam,velo,velo)
+camera_set_view_pos(cam,player.x - p1, player.y - p2);
 
 //Tamanho da câmera
 camera_set_view_size(cam,resolux,resoluy);

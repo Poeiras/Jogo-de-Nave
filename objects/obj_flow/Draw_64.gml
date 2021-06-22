@@ -5,7 +5,6 @@ if(room != rm_base)
 		exit;
 	}
 	
-
 #region HUD do Planeta
 ///Vida do planeta
 var planet,p2,cor1,cor2,cor3,hb1;
@@ -92,4 +91,18 @@ if(vivo = true)
 			}
 #endregion
 }
+#endregion
+
+#region HUD de Pontos
+var dix1,st1,st2,st3;
+dix1 = global.metadex + 433;
+st1 = string("Nível de inimigos: " + string(global.nivel));
+st2 = string("Pontos: " + string(global.pontosatual));
+st3 = string("Colisões no planeta: " + string(global.colisoes));
+if(vivo = true)
+	{
+		draw_text(dix1, 25, st1);
+		draw_text(dix1, 50, st2);
+		draw_text(dix1, 75, st3);
+	}
 #endregion
